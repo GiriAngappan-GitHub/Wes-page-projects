@@ -1,0 +1,122 @@
+header 
+{
+    background:linear-gradient(180deg,rgb(58, 88, 58),rgb(65, 110, 65))
+
+}
+
+.navbar-brand,
+.text-primary
+{
+    color: rgb(241, 234, 234) !important;
+}
+
+.nav-link
+{
+    font-weight: bold;
+    color: rgb(7, 7, 7) !important;
+}
+
+
+.nav-link:hover
+{
+  
+    color: rgb(218, 231, 231) !important;
+}
+
+
+.btn-primary
+{
+    background-color: #0a58ca !important;
+    border: none;
+}
+
+
+p
+{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.blue-bg
+{
+    background-color: #0a58ca;
+    color: white;
+}
+
+#About
+{
+   
+    background:linear-gradient(180deg,rgb(65, 110, 65),rgb(58, 88, 58));
+    
+}
+
+#About:hover
+{
+    transform: scale(1.2);
+    background:linear-gradient(180deg,rgb(216, 186, 15),rgb(157, 175, 157));
+}
+
+
+#Charecters 
+{
+    padding-top:124px;
+    background:linear-gradient(180deg,rgb(65, 110, 65),rgb(58, 88, 58));
+    
+}
+
+
+
+#Charecters #king:hover
+{
+    background:linear-gradient(180deg,rgb(15, 169, 216),rgb(157, 175, 157));
+    border-radius: 15px;    
+    transform: translateX(-100px) scale(1.2);
+    color: white;
+
+}
+
+
+#Charecters #valkeri:hover
+{
+    background:linear-gradient(180deg,rgb(216, 136, 15),rgb(157, 175, 157));
+    border-radius: 15px;    
+    transform: translateX(100px) scale(1.1);
+    color: white;
+
+}
+
+#Charecters #Goblin:hover
+{
+    background:linear-gradient(180deg,rgb(15, 216, 58),rgb(157, 175, 157));
+    border-radius: 15px;    
+    transform: translateX(-100px) scale(1.2);
+    color: white;
+
+}
+
+
+
+#Charecters #Barbarian:hover
+{
+    background:linear-gradient(180deg,rgb(244, 248, 8),rgb(103, 124, 103));
+    border-radius: 15px;    
+    transform: translateX(100px) scale(1.2);
+    color: white;
+
+}
+
+
+#Charecters #Archer img
+{
+    width: 600px !important;
+}
+
+
+#Charecters #Archer:hover
+{
+    background:linear-gradient(180deg,rgba(248, 8, 248, 0.918),rgb(103, 124, 103));
+    border-radius: 15px;    
+    transform: translateX(100px) scale(1.1);
+    color: white;
+   
+}
