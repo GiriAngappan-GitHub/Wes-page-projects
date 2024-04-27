@@ -441,10 +441,11 @@ span
 #Projects .pro-container
 {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
    align-items: center;
    flex-wrap: wrap;
    padding: 20px;
+
 }
 
 
@@ -483,6 +484,29 @@ span
 }
 
 
+ .des button
+{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background: rgb(175, 41, 8);
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
+     /* display: flex; 
+    align-items: center; */
+    position: relative;
+    left: 30%;
+    bottom: 0;
+    
+}
+
+.des button span{
+    font-size: 25px;
+}
 .contact button
 {
     border: 1px solid transparent;
@@ -569,13 +593,18 @@ span
     {
         position:absolute;
         top: 100%;
-        left: 0;
+        /* left: 0; */
         width: 100%;
         padding: 1rem 3%;
-        border-top: 1rem solid rgba( 0,0,0,0.2);
-        box-shadow: 0.5rem 1rem rgba( 0,0,0,0.2);
+        /* border-top: 1rem solid  rgb(114, 110, 110);
+        border-bottom: 1rem solid  rgb(114, 110, 110);
+        border-left: 1rem solid  rgb(114, 110, 110);
+        border-right: 1rem solid  rgb(114, 110, 110); */
+        /* box-shadow: 0.5rem 1rem rgba(48, 47, 47, 0.2); */
+        border-radius: 5%;
+        background: linear-gradient(90deg, white,black);
         display: none;
-        color: white;
+     
     }
 
     .navbar a
@@ -583,6 +612,7 @@ span
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+        /* color:rgb(175, 41, 8); */
     }
     .home
     {
@@ -652,17 +682,19 @@ span
     }
     .navbar.active a:hover
 {
-    color:rgb(0, 0, 0);
+     color:rgb(175, 41, 8); 
 
 }
 
 .navbar.active {
-    background-color:rgb(194, 103, 81);;
+    background-color:white;
+    
   }
   
   
 .navbar.active a {
-    color: rgb(255, 251, 251);
+    color: black;
+    /* color:rgb(175, 41, 8); */
   }
 
   .container{
