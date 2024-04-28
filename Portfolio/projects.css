@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:ital,wght@0,200;0,300;0,400;0,500; 0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900,1,1000&display=swap');
+* {
+margin: 0; 
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+border: none;
+outline: none;
+scroll-behavior: smooth;
+
+}
+
+/* @font-face {
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/nunito/v26/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNirXAHiababWk.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  } */
+body
+{
+    background: black;
+}
+
+/* section
+{
+    display: flex;
+    align-items: center;
+} */
+
+section h1
+{
+    color: rgb(175, 41, 8);
+    text-align: center;
+    font-size: 5em;
+    margin-top: 20px;
+    /* text-shadow: 5px 5px 5px rgba(70, 63, 61, 0.555); */
+}
+
+
+section p
+{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  button {
+    padding: 10px 20px; 
+    font-size: 24px; 
+    
+  }
+  
+
+  button a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  button {
+    background-color: rgb(175, 41, 8);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  

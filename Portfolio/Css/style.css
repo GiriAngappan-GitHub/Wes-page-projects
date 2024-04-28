@@ -484,7 +484,7 @@ span
 }
 
 
- .des button
+ /* .des button
 {
     border: 1px solid transparent;
     border-radius: 20px;
@@ -496,17 +496,53 @@ span
     color: white;
     background: rgb(175, 41, 8);
     box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
-     /* display: flex; 
-    align-items: center; */
-    position: relative;
-    left: 30%;
-    bottom: 0;
-    
+  
+}
+
+
+.des button a
+{
+    font-size: 24px !important;
+
 }
 
 .des button span{
     font-size: 25px;
-}
+} */
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  button {
+    padding: 5px 5px; 
+    margin-top: 30px;
+    font-size: 12px; 
+    
+  }
+  
+
+  button a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
 .contact button
 {
     border: 1px solid transparent;
